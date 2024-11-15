@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+
+\title{Term Project Phase I}
+\author{Adarsh Narayanan}
+\date{November 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+In this phase of the term project, we have selected four distinct datasets as per the instructions for a three person group and plan to explore various machine learning tasks through these datasets, covering classification, regression, and clustering. Each dataset is summarized below, along with the associated machine learning task and source link.
+
+\section{Datasets and Machine Learning Tasks} 
+
+\vspace{0.4cm}
+
+\subsection{Online Gaming Anxiety Data}
+\textbf{Description:} The \textit{Online Gaming Anxiety Data} dataset examines the association between online gaming behaviors and psychological factors such as anxiety, life satisfaction, and social phobia. It includes responses from over 13,000 participants, providing demographic details (age, gender, education level), gaming habits (weekly gaming hours, preferred platforms), and assessments using standardized scales like the Generalized Anxiety Disorder (GAD) scale, Satisfaction with Life Scale (SWLS), and Social Phobia Inventory (SPIN). This dataset facilitates analysis of correlations between gaming activities and mental health indicators. \\
+
+\textbf{Source:} \href{https://www.kaggle.com/datasets/divyansh22/online-gaming-anxiety-data}{https://www.kaggle.com/datasets/divyansh22/online-gaming-anxiety-data}\\
+
+\textbf{Machine Learning Task:} Classification \\
+
+\textbf{Motivation:} We are all gamers who enjoy video games, and coming from the COVID-19 era, where online gaming was a significant source of social interaction, it is interesting to explore the potential anxiety caused by online gaming and its associated social interactions. \\
+
+\textbf{Objective:} Develop a model to predict the likelihood of a participant experiencing anxiety based on features like demographic details, gaming habits, and psychological assessment scores.
+
+\subsection{Financial Data}
+\textbf{Description:} 
+The \textit{Gold Price Prediction} dataset provides historical financial data, including daily prices of various financial instruments such as stocks, commodities, and indices. It spans from January 2013 to December 2022, comprising approximately 2,600 daily records. Each record includes features such as opening and closing prices, highest and lowest prices of the day, trading volume, and other relevant financial indicators. The time-series nature of this data allows for in-depth analysis of trends and patterns over time, making it suitable for forecasting future prices or returns. \\
+
+\textbf{Source:} \href{https://www.kaggle.com/datasets/franciscogcc/financial-data}{https://www.kaggle.com/datasets/franciscogcc/financial-data} \\
+
+\textbf{Machine Learning Task:} Regression \\
+
+\textbf{Motivation:} It is fascinating to observe correlations between major indices like the S&P 500 and Nasdaq, as well as the behavior of individual stocks. This dataset provides an opportunity to explore financial market trends and predictions. \\
+
+\textbf{Objective:} Utilize historical financial data to predict future prices or returns of specific financial instruments, aiding in investment decisions and risk management. \\
+
+\subsection{Small Image Dataset for Unsupervised Clustering}
+\textbf{Description:} 
+The "Small Image Dataset for Unsupervised Clustering" contains 1,000 images divided equally across 10 categories, with each category containing 100 images. The images include a variety of themes, such as animals, vehicles, and everyday objects, with differences in resolution, size, and aspect ratio. Each image is unlabeled, requiring analysis based solely on its visual characteristics.\\
+
+\textbf{Source:} \href{https://www.kaggle.com/datasets/heavensky/image-dataset-for-unsupervised-clustering}{https://www.kaggle.com/datasets/heavensky/image-dataset-for-unsupervised-clustering}
+
+
+\textbf{Machine Learning Task:} Clustering \\
+
+\textbf{Motivation:} While foundational datasets like MNIST, STL-10, CIFAR-10, and ImageNet are widely used, we specifically chose an image dataset tailored for unsupervised clustering. Distance metrics between image pixel such as the known Wasserstien distance (also known as Earth Mover’s Distance) could be interesting when used in analysis for machine learning to measure dissimilarity between two probability distributions, and this dataset meets our requirements for experimenting with clustering methods. \\
+
+\textbf{Objective:} Implement unsupervised learning techniques to group similar images based on visual features, facilitating tasks like image organization, pattern recognition, and anomaly detection.
+
+\subsection{Coronavirus Tweets NLP - Text Classification}
+\textbf{Description:} The "Coronavirus Tweets NLP - Text Classification" dataset contains 13,438 tweets about the COVID-19 pandemic, collected between March and April 2020. Each tweet is annotated with one of five sentiment labels: extremely positive, positive, neutral, negative, or extremely negative. The dataset includes the text of each tweet, the user's location, and the date it was posted, enabling detailed analysis of public sentiment and trends during the early phase of the pandemic. \\
+
+\textbf{Source:}
+\href{https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification}{https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification}
+
+
+\textbf{Machine Learning Task:} Classification \\
+
+\textbf{Motivation:} Twitter posts provide a great source of text data, as they reflect opinions from users worldwide. This dataset focuses on tweets about the coronavirus during a time of reduced social interaction. Analyzing sentiments during this period offers insights into how the pandemic affected public opinions, especially regarding negative sentiments. \\
+
+
+\textbf{Objective:} Develop a model to classify the sentiment expressed in tweets, aiding in sentiment analysis, trend detection, and public opinion monitoring during health crises.
+
+\end{document}
+
+
+
